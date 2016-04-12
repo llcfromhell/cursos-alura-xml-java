@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<venda moeda="dollar">
+	<formaPagamento>
+		Cartão de crédito
+	</formaPagamento>
+
+    <produtos>
+        <produto>
+            <nome>
+                prod 01
+            </nome>
+            <preco>
+                10.00
+            </preco>
+        </produto>
+
+        <produto>
+            <nome>
+                prod 03
+            </nome>
+            <preco>
+                30.00
+            </preco>
+        </produto>
+
+        <produto>
+            <nome>
+                prod 02
+            </nome>
+            <preco>
+                50.65
+            </preco>
+        </produto>
+
+    </produtos>
+
+
+</venda>
