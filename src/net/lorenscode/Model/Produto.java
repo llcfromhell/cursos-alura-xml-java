@@ -1,3 +1,5 @@
+package net.lorenscode.Model;
+
 /**
  * Created by lourenco.cunha on 12/04/2016.
  */
