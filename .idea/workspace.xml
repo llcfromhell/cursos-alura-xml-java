@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3bbd6ce-dd95-4ea2-acfc-d80b6c1dd070" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/lorenscode/Handlers/ProdutosHandler.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/net/lorenscode/Teste/LeitorXML.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/net/lorenscode/Teste/LerArquivoDeOutraForma.java" afterPath="$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLComSax.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/lorenscode/Model/Produto.java" afterPath="$PROJECT_DIR$/src/net/lorenscode/Model/Produto.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml.iml" afterPath="$PROJECT_DIR$/xml.iml" />
-    </list>
+    <list default="true" id="f3bbd6ce-dd95-4ea2-acfc-d80b6c1dd070" name="Default" comment="" />
     <ignored path="cursos-alura-xml-java.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -42,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeXMLComSax.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeXMLComSax.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLComSax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,13 +49,26 @@
       <file leaf-file-name="ProdutosHandler.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/lorenscode/Handlers/ProdutosHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="152">
+              <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#477#486#0" expanded="true" />
                 <element signature="e#1382#1383#0" expanded="true" />
                 <element signature="e#1409#1410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LeXMLComSTAX.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLComSTAX.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="73">
+              <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#674#683#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,6 +112,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -123,6 +135,8 @@
         <option value="$PROJECT_DIR$/src/net/lorenscode/Teste/ProdutosHandler.java" />
         <option value="$PROJECT_DIR$/src/net/lorenscode/Teste/LerArquivoDeOutraForma.java" />
         <option value="$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLComSax.java" />
+        <option value="$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLTerceiraForma.java" />
+        <option value="$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLComSTAX.java" />
       </list>
     </option>
   </component>
@@ -287,7 +301,7 @@
       <recent name="C:\Users\lourenco.cunha\Documents\cursos\xml\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.LeXMLComSTAX">
     <configuration default="false" name="Sistema" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -313,6 +327,21 @@
     <configuration default="false" name="LeXMLComSax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="net.lorenscode.Teste.LeXMLComSax" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="xml" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="LeXMLComSTAX" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="net.lorenscode.Teste.LeXMLComSTAX" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -447,14 +476,16 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.Sistema" />
       <item index="1" class="java.lang.String" itemvalue="Application.LeXMLComSax" />
+      <item index="2" class="java.lang.String" itemvalue="Application.LeXMLComSTAX" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.LeXMLComSax" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Sistema" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.LeXMLComSTAX" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LeXMLComSax" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Sistema" />
       </list>
     </recent_temporary>
   </component>
@@ -517,7 +548,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="4" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -746,10 +777,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLComSax.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/lorenscode/Handlers/ProdutosHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="23" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#477#486#0" expanded="true" />
@@ -759,12 +800,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLComSax.java">
+    <entry file="file://$PROJECT_DIR$/src/net/lorenscode/Teste/LeXMLComSTAX.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="73">
+          <caret line="22" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#674#683#0" expanded="true" />
           </folding>
         </state>
       </provider>
