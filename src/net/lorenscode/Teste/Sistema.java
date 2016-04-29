@@ -1,12 +1,19 @@
 package net.lorenscode.Teste;
 
 import com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl;
+
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.xpath.XPath;
+
+import javax.xml.xpath.XPathConstants;
+import javax.xml.xpath.XPathExpression;
+import javax.xml.xpath.XPathFactory;
+
 
 /**
  * Created by lourenco.cunha on 12/04/2016.
@@ -27,9 +34,13 @@ public class Sistema {
 
             Element venda = xml.getDocumentElement();
 
-            System.out.println(venda.getAttribute("moeda").toString());
+            //System.out.println(venda.getAttribute("moeda").toString());
 
-            NodeList produtos = xml.getElementsByTagName("produto");
+            String exp = "/venda/produtos/produto[contains(nome,'02')] ";
+            XPath path = XPathFactory.newInstance().newXPath();
+            XPathExpression xExp = path.compile(exp);
+
+            NodeList produtos = (NodeList) xExp.evaluate(xml, XPathConstants.NODESET);
 
             for (int i = 0; i < produtos.getLength(); i++) {
 
