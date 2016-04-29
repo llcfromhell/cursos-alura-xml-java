@@ -1,5 +1,6 @@
 package net.lorenscode.Teste;
 
+import net.lorenscode.Handlers.ProdutosHandler;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
@@ -12,16 +13,20 @@ import java.io.InputStream;
 /**
  * Created by lourenco.cunha on 26/04/2016.
  */
-public class LerArquivoDeOutraForma {
+public class LeXMLComSax {
 
     public static void main(String[] args) {
 
         try {
             XMLReader leitor = XMLReaderFactory.createXMLReader();
-            leitor.setContentHandler(new LeitorXML());
+            ProdutosHandler produtosHandler = new ProdutosHandler();
+            leitor.setContentHandler(produtosHandler);
             InputStream stream = new FileInputStream("src/vendas.xml");
             InputSource is = new InputSource(stream);
             leitor.parse(is);
+
+            System.out.println(produtosHandler.getList());
+
         } catch (SAXException e) {
             e.printStackTrace();
         } catch (IOException e) {
