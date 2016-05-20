@@ -7,6 +7,11 @@ public class Produto {
     private String nome;
     private Double preco;
 
+    public Produto(String s, double v) {
+        nome = s;
+        preco = v;
+    }
+
     public String getNome() {
         return nome;
     }
@@ -24,4 +29,12 @@ public class Produto {
     }
 
     public Produto(){}
+
+    @Override
+    public String toString() {
+        return "Produto{" +
+                "nome='" + nome + '\'' +
+                ", preco=" + preco +
+                '}';
+    }
 }
